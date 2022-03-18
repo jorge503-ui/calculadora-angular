@@ -1,0 +1,25 @@
+<table>
+    <tr>
+        <p>Operando A</p>
+    </tr>
+    <tr>
+        <input type="number" 
+        class="form-control"
+        [(ngModel)]='operandoA'>
+    </tr><br/>
+    <tr>
+        <p>Operando B</p>
+    </tr>
+    <tr>
+        <input type="number" 
+            class="form-control"
+            [(ngModel)]='operandoB'>
+    </tr><br/>
+    <tr>
+        <button class='btn btn-primary'
+        (click)='sumar()'>Sumar</button>
+    </tr>
+    <tr>
+        <label>Resultado: {{resultado}}</label>
+    </tr>
+</table>
